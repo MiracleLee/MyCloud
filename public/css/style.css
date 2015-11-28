@@ -29,11 +29,6 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
-	
-	p.sm-p {
-		font-size: 12px;
-		margin: 0.5em 0 0.1em 0;
-	}
 
 	a {
 		-moz-transition: border-color 0.2s ease-in-out;
@@ -204,8 +199,13 @@
 
 		#header p {
 			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
+			margin: 0.75em 0 0.75em 0;
 			opacity: 0.75;
+		}
+
+		#header p.sm-p {
+			font-size: 1em; 
+			margin: 0.5em 0 0.1em 0;
 		}
 
 		#header nav {

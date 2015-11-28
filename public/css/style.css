@@ -202,10 +202,14 @@
 			margin: 0.75em 0 0.75em 0;
 			opacity: 0.75;
 		}
+	
+		#header .desc {
+			margin: 1.25em 0 1em 0;
+		}
 
 		#header p.sm-p {
 			font-size: 1em; 
-			margin: 0.5em 0 0.1em 0;
+			margin: 0;
 		}
 
 		#header nav {
